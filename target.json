@@ -1,18 +1,18 @@
 {
     "include": [
         {
-            "keyboard": "ysk635",
+            "keyboard": "yosuke2",
             "keymap": "vial",
             "target": "uf2",
             "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_LEFT\"",
-            "name": "ysk635_vial_left"
+            "name": "yosuke2_vial_left"
         },
         {
-            "keyboard": "ysk635",
+            "keyboard": "yosuke2",
             "keymap": "vial",
             "target": "uf2",
             "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_RIGHT\"",
-            "name": "ysk635_vial_right"
+            "name": "yosuke2_vial_right"
         }
     ]
 }
