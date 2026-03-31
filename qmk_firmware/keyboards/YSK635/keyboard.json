@@ -1,6 +1,6 @@
 {
     "manufacturer": "Auto-Keyboard-Design-Kit by sekigon-gonnoc",
-    "keyboard_name": "YSK635",
+    "keyboard_name": "ysk635",
     "maintainer": "Auto-KDK",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
