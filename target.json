@@ -1,0 +1,18 @@
+{
+    "include": [
+        {
+            "keyboard": "YSK635",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_LEFT\"",
+            "name": "YSK635_vial_left"
+        },
+        {
+            "keyboard": "YSK635",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_RIGHT\"",
+            "name": "YSK635_vial_right"
+        }
+    ]
+}
