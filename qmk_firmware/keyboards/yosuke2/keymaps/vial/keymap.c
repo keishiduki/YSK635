@@ -12,17 +12,17 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-              KC_ESCAPE,           KC_F1,           KC_F2,           KC_F3,
-                  KC_F4,           KC_F5,        KC_GRAVE,            KC_1,
+                  TD(1),           KC_F1,           KC_F2,           KC_F3,
+                  KC_F4,           TD(0),        KC_GRAVE,            KC_1,
                    KC_2,            KC_3,            KC_4,            KC_5,
                  KC_TAB,            KC_Q,            KC_W,            KC_E,
                    KC_R,            KC_T,    KC_CAPS_LOCK,            KC_A,
                    KC_S,            KC_D,            KC_F,            KC_G,
           KC_LEFT_SHIFT,            KC_Z,            KC_X,            KC_C,
                    KC_V,            KC_B,    KC_LEFT_CTRL,     KC_LEFT_GUI,
-            KC_LEFT_ALT, KC_INTERNATIONAL_5,        KC_SPACE,           KC_F5,
+            KC_LEFT_ALT, KC_INTERNATIONAL_5,        KC_SPACE,           TD(0),
                   KC_F6,           KC_F7,           KC_F8,           KC_F9,
-                 KC_F10,          KC_F11,          KC_F12,            KC_6,
+                 KC_F10,          KC_F11,           TD(2),            KC_6,
                    KC_7,            KC_8,            KC_9,            KC_0,
                KC_MINUS,        KC_EQUAL, KC_INTERNATIONAL_1,    KC_BACKSPACE,
               KC_INSERT,         KC_HOME,      KC_PAGE_UP,            KC_Y,
